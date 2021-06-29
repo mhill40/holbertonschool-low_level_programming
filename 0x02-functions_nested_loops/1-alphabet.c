@@ -1,4 +1,3 @@
-cat 1-main.c
 #include "holberton.h"
 #include <stdio.h>
 #include <stddef.h>
