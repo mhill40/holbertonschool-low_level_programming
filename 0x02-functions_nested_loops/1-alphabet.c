@@ -6,7 +6,7 @@ int main()
 char x;
 for (x = 'A'; x <= 'Z'; x++)
 {
-printf(%x ", x);
+printf("%x ", x);
 return (0);
 }
        
