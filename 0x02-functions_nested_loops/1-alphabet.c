@@ -1,8 +1,16 @@
 #include "holberton.h"
 
 int main(void)
-{
-print_alphabet((\n));
+  char letter;
 
-return(0);
+letter = 'a'
+ while (letter <= 'z')
+{
+ ft_putchar(letter);
+}
+
+int main(void) 
+{
+ft_print_alphabet();
+return 0;
 }
