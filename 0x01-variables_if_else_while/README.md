@@ -10,3 +10,5 @@ How to declare variables of types char, int, unsigned int
 How to print the values of variables of type char, int, unsigned int with printf
 What is the ASCII character set
 What are the purpose of the gcc flags -m32 and -m64
+
+// NOTE FROM MATT -  I COULD not get past the weird quiz to get to the assignment steps. ill ask in a couple hours
