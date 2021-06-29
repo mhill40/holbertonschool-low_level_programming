@@ -4,7 +4,7 @@
 
 int main (void)
 {
-       print_alphabet(1);
+       print_alphabet();
        return (0);
 }
 //int main()
