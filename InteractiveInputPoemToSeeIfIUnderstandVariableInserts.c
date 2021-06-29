@@ -1,4 +1,3 @@
-
 #include <stdlib.h>
 #include <stdio.h>
 
@@ -13,17 +12,17 @@ int main ()
   scanf("%s", color);
   //that asks user and has user inpu a vaue
   printf("Enter a plural noun: ");
-  scanf("%s, pluralNoun);
+  scanf("%s", pluralNoun);
   printf("Enter a celebrity");
-  scanf("%s, celebrity);
+  scanf("%s," celebrity);
   // you are passing with scanf the value to the parameter or char that has a limit of 20 length
   
   printf("Roses are %s\n", color);
   print("%s are blue\n", pluralNoun);
-  printf("I love %s\n, celebrity);
+  printf("I love %s\n", celebrity);
          
          // %s is string %d decimal %i interger
   
   return 0;
   }
-// something is wrong and it wont compile //
+// something is wrong and it wont compile 
