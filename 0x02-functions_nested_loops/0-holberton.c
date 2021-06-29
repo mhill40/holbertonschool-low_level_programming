@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-  printf("holberton\n");
+  printf("Holberton\n");
 
 return 0;
 }
