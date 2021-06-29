@@ -2,6 +2,7 @@
 
 int main(void)
 {
-print_alphabet();
+print_alphabet((\n));
+
 return(0);
 }
