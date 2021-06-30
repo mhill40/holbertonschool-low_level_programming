@@ -12,3 +12,4 @@ What is the ASCII character set
 What are the purpose of the gcc flags -m32 and -m64
 
 // NOTE FROM MATT -  I COULD not get past the weird quiz to get to the assignment steps. ill ask in a couple hours
+// i got it finally at class the following morning with the help of a peer //
