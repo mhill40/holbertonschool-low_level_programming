@@ -1,14 +1,18 @@
 #include <stdio.h>
-
-int main()
+#include <stdlib.h>
+#include <math.h>
+/**
+ * main - Print the alphabet
+ // Return: Always 0 (Success, 1 or 2 means errror)
+ */
+int main(void)
 {
-    char ltr;
+	char a;
+    char z;
+    char x;
 
-    printf("The Alphabet is: \n");
-    for(ltr='a'; ltr='z'; ltr++)
-    {
-        printf("%c\n", ltr);
-    }
-
-    return 0;
+	for (x = 'a'; x <= 'z' ; x++)
+		putchar(x);
+	putchar('\n');
+	return (0);
 }

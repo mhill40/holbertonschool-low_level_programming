@@ -1,20 +1,20 @@
 #include <stdio.h>
-
-int main()
+#include <stdlib.h>
+#include <math.h>
+/**
+ * ALWAYS RETURN 0 step 5 - Print the alphabet
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 {
-    char ltr;
+    char a;
 
-    printf("The lowercase alphabet without q or e is: \n");
-    for(ltr='a'; ltr='z'; ltr++)
+    for (a = 'a'; a <= 'z' ; a++)
     {
-        printf(["%C\n", ltr)];
-        if ltr[i] = q{
-            pop ltr[q];
-        }
-        else if ltr[i] = e;{
-            pop ltr[e];
-        }
-        else{
-    return 0;
-        }
+        if (a != 'e' && a != 'q')
+            putchar(a);
+    }
+    putchar('\n');
+    return (0);
 }

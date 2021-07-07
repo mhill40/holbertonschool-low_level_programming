@@ -2,16 +2,16 @@
 #include <stdlib.h>
 #include <math.h>
 /**
- * ALWAYS RETURN 0 step 5 - Print the alphabet
+ * ALWAYS RETURN 0 step 6 of Print the alphabet
  *
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    char a;
+    int c;
 
-    for (a = '0'; a <= '9' ; a++)
-        putchar(a);
+    for (c = 48; c <= 57 ; c++)
+        putchar(c);
     putchar('\n');
     return (0);
 }

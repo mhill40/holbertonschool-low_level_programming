@@ -2,15 +2,15 @@
 #include <stdlib.h>
 #include <time.h>
 
-int main(void)
+int main(0)
 {
 int n;
 // i am telling c im making an integer variable and calling it n
 srand(time(0));
 n = rand() - RAND_MAX / 2;
-// just calls the random functoin, and makes the random number have a value and says waht to do . 
-//from my understanding rand is the function built in to c for random numbers
-//heres what i want the program to do:
+// just makes the random number have a value and says waht to do . from my 
+//understanding rand is the function built in to c for random numbers
+//heres what i want the program to do
 
 	if (n > 0)
 		printf("%d is positive\n", n);
@@ -18,5 +18,5 @@ n = rand() - RAND_MAX / 2;
 		printf("%d is zero\n", n);
 	else
 		printf("%d is negative\n", n);
-return 0;
-}
+
+	

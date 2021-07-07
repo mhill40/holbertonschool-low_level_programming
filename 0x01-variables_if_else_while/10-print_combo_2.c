@@ -1,0 +1,24 @@
+#include <stdlib.h>
+#include <stdio.h>
+#include <math.h>
+/*
+//inside main, print 1-99 out in a single line separated with commas (,)
+ //Return: (0) Success
+ */
+int main(void)
+{
+	int x;
+
+	for (x = 0; x <= 99; x++)
+	{
+		putchar(x / 10 + '0');
+		putchar(x % 10 + '0');
+		if (x < 99)
+		{
+			putchar(',');
+			putchar(' ');
+		}
+	}
+	putchar('\n');
+	return (0);
+}
