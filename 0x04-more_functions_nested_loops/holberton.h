@@ -1,9 +1,6 @@
 #ifndef HOLBERTON_H
 #define HOLBERTON_H
 
-//#include <main.h>
-//#include <math.h>
-
 void positive_or_negative(int i);
 int largest_number(int a, int b, int c);
 int _isupper(int c);
@@ -16,6 +13,6 @@ void print_line(int n);
 void print_diagonal(int n);
 void print_square(int size);
 void print_triangle(int size);
-
+int _putchar(char c);
 #endif
 // HOLBERTON_H != HOLBERTON_H
