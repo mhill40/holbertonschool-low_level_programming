@@ -1,14 +1,21 @@
+#include <math.h>
 #include <stdio.h>
-
-int main()
+#include <stdlib.h>
+#include <time.h>
+/**
+ * main is always the Entry point
+ * print alphabet backwards/forwards/then capitalized and then new line
+ * Return Always is 0 (Success)
+ */
+int main(void)
 {
-    char ltr;
+    char x;
 
-    printf("The CAPITAL UPPERCASE alphabet is: \n");
-    for(ltr='A'; ltr<'Z'; ltr++)
-    {
-        printf("%c\n", %s);
-    }
-printf("Z");
-    return 0;
+    for (x = 'a'; x <= 'z'; x++)
+        putchar(x);
+    for (x = 'A'; x <= 'Z'; x++)
+        putchar(x);
+        putchar('\n');
+
+    return (0);
 }
