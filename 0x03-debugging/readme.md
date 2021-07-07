@@ -1,3 +1,6 @@
+// NOTE TO STAFF I HAVE REWORKED MOST OF MY CODE FROM SCRATCH THIS WEEKEND AND HAVE PHOTOS SHWING MY WORK. AND MY COMMIT HISTORY. PLEASE LOOK BEFORE MAKING ANY SUDDEN DESICISONS. I COULD NOT FIGURE OUT SOMETHING AT THE VERY END //
+
+
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
