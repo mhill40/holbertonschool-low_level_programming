@@ -3,24 +3,17 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main is the Entry point
- * program that prints the lowercase alphabet in reverse, followed by a new line.
- * Return is Always 0 (Success)
+ * main is always the Entry point
+ * should pprint alphabet backwards with new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int x;
+	char i;
 
-	for (x = '0'; x <= '9'; x++)
-	{
-		putchar(x);
-		if (x != '9')
-		{
-			putchar(',');
-//			putchar(' ');
-		}
-	}
-	putchar('\n');
+	for (i = 'z'; i >= 'a'; i--)
+		putchar(i);
+		putchar('\n');
 
 	return (0);
 }
