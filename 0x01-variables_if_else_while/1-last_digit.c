@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 /*ALWAYS RETURN A ZERO FOR NOW!!! */
-int main(o)
+int main(void)
 {
 	int n;
 
