@@ -20,8 +20,3 @@ return 0;
  }
 
 // but ive seen it the oher way around with print first and return at the end
-
-
-// now for a poem with user terminal input
-
-
