@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//ALWAYS RETURN A ZERO FOR NOW!!!/
-int main(void)
+/*ALWAYS RETURN A ZERO FOR NOW!!! */
+int main(o)
 {
 	int n;
 
