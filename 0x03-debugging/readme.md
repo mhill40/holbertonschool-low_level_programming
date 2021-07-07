@@ -1,4 +1,3 @@
-
 Learning Objectives
 At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
 
@@ -8,8 +7,8 @@ What are some methods of debugging manually
 How to read the error messages
 Requirements
 General
-Allowed editors: vi, vim, emacs. (I USE NANO)
-All your files will be compiled on Ubuntu 20.04 LTS (I USE ARM, BUT IT IS UBUNTU. SOMETIMES MAC.) using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
+Allowed editors: vi, vim, emacs (I PERSONALLY USE NANO)
+All your files will be compiled on Ubuntu 20.04 IM USING 18.04 LTS AND MAC) LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=gnu89
 All your files should end with a new line
 Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
 A README.md file at the root of the holbertonschool-low_level_programming repo, containing a description of the repository
