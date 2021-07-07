@@ -1,30 +1,24 @@
-#include "holberton.h"
+#include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-#include <stdio.h>
+#include "holberton.h"
 /**
- * largest_number program returns the largest of 3 numbers
- * a equals first int
- * b equals second int
- * c equals third int
- * Return: largest number
- */
-int largest(int a, int b, int c)
-{
-int largest = ();
+* main function prints the largest of 3 integers
+* Return IS ALWAYS 0
+*/
 
-if (a >= b && a >= c)
+int main()
 {
-largest = a;
-}
-else if (b > c)
-{
-largest = b;
-}
-else
-{
-largest = c;
-}
+        int a, b, c;
+//       int largest;
 
-return (largest);
+        a = 972;
+        b = -98;
+        c = 0;
+
+        largest = largest_number(a, b, c);
+
+        printf("a" is the largest number\n", largest);
+
+        return (0);
 }
