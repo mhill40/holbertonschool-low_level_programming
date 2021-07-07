@@ -1,18 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <math.h>
+#include <time.h>
 /**
- * main - Print the alphabet
- // Return: Always 0 (Success, 1 or 2 means errror)
+ * main - Entry point
+ * program that prints the alphabet in lowercase, followed by a new line.
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	char a;
-    char z;
     char x;
 
-	for (x = 'a'; x <= 'z' ; x++)
-		putchar(x);
-	putchar('\n');
-	return (0);
+    for (x = 'a'; x <= 'z'; x++)
+        putchar(x);
+        printf("\n");
+
+    return (0);
 }
