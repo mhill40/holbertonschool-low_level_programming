@@ -1,17 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-//* main is always the entry point
- //* program that prints the alphabet in lowercase, followed by a new line.
- //* Return: Always 0 (Success)
- //
+/**
+ * main is always entry point
+ * Write a program that prints the alphabet in lowercase, followed by a new line.
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
-    char x;
+	char low;
 
-    for (x = 'a'; x <= 'z'; x++)
-        putchar(x);
-        printf("\n");
+	for (low = 'a'; low <= 'z'; low++)
+		putchar(low);
+		printf("\n");
 
-    return (0);
+	return (0);
 }
